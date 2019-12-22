@@ -43,7 +43,7 @@ end
 
 def add_s(n)
   n.each_with_index.collect {   |word, index|
-    word << "s" unless  index == 1
+    word << "s" if index == 1
    }
    
 end
