@@ -43,7 +43,10 @@ end
 
 def add_s(n)
   n.collect {|word|
+  if word == word[1]
+    
+  else
   word << "s" 
-  word == word[1]
+  
   }
 end
