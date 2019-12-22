@@ -44,8 +44,6 @@ end
 def add_s(n)
   n.collect {|word|
   if word == word[1]
-    return word
-  else
   word << "s"
 end
   }
