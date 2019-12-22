@@ -42,8 +42,8 @@ def sum_array(n)
 end  
 
 def add_s(n)
-  n.collect {|word|
-  if word == word[1]
+  n.collect {   |word|
+  if n == [1]
     return word
   else
     word << "s" 
