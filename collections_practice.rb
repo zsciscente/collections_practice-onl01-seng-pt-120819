@@ -42,7 +42,7 @@ def sum_array(n)
 end  
 
 def add_s(n)
-  n.each_with_index.collect {|word, index|
+  n.collect {|word|
   word << "s" unless word == word[1]
   }
 end
