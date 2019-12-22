@@ -46,7 +46,7 @@ def add_s(n)
   if word == word[1]
     
   else
-  word << "s" 
-  
-  }
+    word << "s" 
+  end
+   }
 end
